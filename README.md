@@ -20,14 +20,14 @@ ___
     
     
     Features:
-       &#8226; Server Creation(In Development)
-       &#8226; Global User Manager(In Development)
-       &#8226; Server User Manager(In Development)
-       &#8226; Server Editor(Complete)
-       &#8226; Server Start/Stop(Complete)
-       &#8226; Server Console(In Development)
-       &#8226; User Login & Login Cookie(Complete)
-       &#8226; User Registration(In Development)
+       * Server Creation(In Development)
+       * Global User Manager(In Development)
+       * Server User Manager(In Development)
+       * Server Editor(Complete)
+       * Server Start/Stop(Complete)
+       * Server Console(In Development)
+       * User Login & Login Cookie(Complete)
+       * User Registration(In Development)
         
     
 </section>
