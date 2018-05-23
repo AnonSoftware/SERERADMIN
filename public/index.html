@@ -1,0 +1,593 @@
+
+<head>
+  <!-- Site made with Mobirise Website Builder v4.7.2, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <meta name="description" content="">
+  <title>SERVERADMIN</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/animation/css/animation.css" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+
+</head>
+
+<body style="overflow:hidden;">
+
+     <section class="menu cid-qRWARDjdtk" once="menu" id="menu1-1j">
+        <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm" style="background-color:#5d808c;">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="menu-logo">
+                <div class="navbar-brand">
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="#page=home">SERVERADMIN</a></span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item">
+                        <a class="nav-link link text-white display-4" href="#page=home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link text-white display-4" href="#page=servers">Servers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link text-white display-4" href="#page=users">Users</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+    </section>
+    
+    
+    <section style="margin-top:77px;height:100%;">
+        
+        <div class="row">
+             <div class="col-md-2" style="height:98%;">
+             
+                <div id="sidebar-container">
+                    <!--Modular Sidebar -->
+                    
+                    
+                    <section id="sidebar_home" hidden class="sidebar-content">
+                        <!--<h3>home  Sidebar</h3>-->
+                
+                    </section>
+                    
+                    <section id="sidebar_servers" hidden class="sidebar-content">
+                        <!--<h3>serverList Sidebar</h3>-->
+                        
+                        <ul class="nav flex-column nav-pills">
+                         
+                              
+                          
+                        </ul>
+                        
+                    </section>
+                    
+                    <section id="sidebar_serveredit" hidden class="sidebar-content">
+                        <!--<h3>serverEdit Sidebar</h3>-->
+                        
+                        
+                        <ul class="nav flex-column nav-pills">
+                        
+                            <li class="nav-item gap-1-top ">
+                                <a class="nav-link well well-sm" id="servereditUsers" href="#page=serveruser&server=1&users=list">Users</a>
+                            </li>
+                            
+                            <li class="nav-item gap-1-top ">
+                                <a class="nav-link well well-sm" id="servereditConsole" href="#page=console">Console</a>
+                            </li>
+                            
+                         
+                            <li class="nav-item gap-4-top pull-bottom"  style="width:310px;">
+                                <a class="nav-link active" href="#page=servers">Back</a>
+                            </li>
+                        </ul>
+                        
+                        
+                    </section>
+                    
+                    <section id="sidebar_users" hidden class="sidebar-content">
+                        <!--<h3>users Sidebar</h3>-->
+                        
+                        
+                        <ul class="nav flex-column nav-pills">
+                         
+                            <li class="nav-item gap-4-top pull-bottom"  style="width:310px;">
+                                <a class="nav-link active" href="#page=servers">Back</a>
+                            </li>
+                        </ul>
+                        
+                        
+                    </section>
+                    
+                    <section id="sidebar_serveruser" hidden class="sidebar-content">
+                        <!--<h3>users Sidebar</h3>-->
+                        
+                        
+                        <ul class="nav flex-column nav-pills">
+                         
+                            <li class="nav-item gap-4-top pull-bottom"  style="width:310px;">
+                                <a class="nav-link active" href="#page=servers">Back</a>
+                            </li>
+                        </ul>
+                        
+                        
+                    </section>
+                    
+                    <section id="sidebar_login" hidden class="sidebar-content">
+                        
+                        
+                    </section>
+                    
+                    <section id="sidebar_register" hidden class="sidebar-content">
+                        
+                        
+                    </section>
+                    
+                    <section id="sidebar_console" hidden class="sidebar-content">
+                        <ul class="nav flex-column nav-pills">
+                         
+                            <li class="nav-item gap-4-top pull-bottom"  style="width:310px;">
+                                <a class="nav-link active" href="#page=servers">Back</a>
+                            </li>
+                        </ul>
+                        
+                    </section>
+                    
+                </div>
+            </div>
+            <div class="col-md-10" style="background-color:lightgrey; height:98%;">
+                
+                    <div style="padding-top:10px;">
+                        <section id="page_home" hidden class="maincontent">
+                            <h3>home </h3>
+                    
+                        </section>
+                        
+                        <section id="page_servers" hidden class="maincontent">
+                            
+                            
+                                <div class="row" style="margin-left:5px;margin-right:5px;">
+                                    <div class="col-md-2">
+                                        <p> Server Name: </p>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <p>Game:</p>
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <p>Status:</p>
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <p> Players:</p>
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div id="servers">
+                                </div>
+                            
+                        </section>
+                        
+                        <section id="page_serveredit" hidden class="maincontent">
+                            
+                            
+                            <div class="serveredit-header row">
+                                
+                                <div class="col-md-3">
+                                    Server Name Goes Here
+                                </div>
+                                <div class="col-md-7"></div>
+                                
+                                <div  class="col-md-1">
+                                    <p id="edit_state" class="online">Online </p>
+                                </div>
+                                <div class="col-md-1">
+                                    <p id="edit_players">64/128</p>
+                                </div>
+                            
+                            
+                            </div>
+                            <div class="gap-2-top"></div>
+                            <form>
+                            
+                                
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-5">
+                                        <div class="row">
+                                            <div class="col-md-2 topCenter" > <center><p> Name: </p></center> </div>
+                                            <div class="form-group col-md-10">
+                                                <input class="form-control" type="text" id="edit_name" name="edit_name" placeholder="Name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-md-4 offset-md-1">
+                                        <div class="row">
+                                        
+                                           <div class="col-md-2"> <center><p> Max Players: </p></center> </div>
+                                            <div class="form-group col-md-2">
+                                                <input class="form-control" type="text" id="edit_maxplayers" name="edit_maxplayers" placeholder="Max Players">
+                                            </div>
+                                            
+                                            
+                                            <div class="col-md-8">
+                                                <div class="row">
+                                                    <div style="position:fixed; right:10px;top:150px;">
+                                                        <button class="btn btn-default" type="button" onclick="startServer()">start</button>
+                                                        <button class="btn btn-default" type="button" onclick="stopServer()">stop</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="row">
+                                            <div class="col-md-2 topCenter" > <center><p> Game: </p></center> </div>
+                                            <div class="form-group col-md-10">
+                                                <input class="form-control" type="text" id="edit_game" name="edit_game" placeholder="Game">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-5">
+                                        <div class="row">
+                                            <div class="col-md-2"> <center><p> Launch Args: </p></center> </div>
+                                            <div class="form-group col-md-10">
+                                                <input class="form-control" type="text" id="edit_launch" name="edit_launch" placeholder="Launch Args">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                <div class="row">
+                                    <input type="text" hidden id="serverid" name="servername" value="1">
+                                    <button type="button" onclick="serverEdit()" class="btn btn-default savebtn">Save</button>
+                                    
+                                </div>
+                                
+                            </form>
+                        </section>
+                        
+                        <section id="page_users" hidden class="maincontent">
+                            <h1>usersGlob</h1>
+                            <div class="row" style="margin-left:5px;margin-right:5px;">
+                                    
+                                </div>
+                            
+                                <div id="users" class="row" style="margin-left:5px;margin-right:5px;">
+                                    <a href="#" class="col-md-2 usercard">
+                                        <div>
+                                            <center>
+                                            <h4>Anon_Gaming</h3>
+                                            </center>
+                                        </div>
+                                    </a>
+                                </div>
+                            
+                        </section>
+                        
+                        <section id="page_serveruser" hidden class="maincontent">
+                            <h3>Users</h3>
+                            
+                             <div class="row" style="margin-left:5px;margin-right:5px;">
+                                    <div class="col-md-2">
+                                        <p> Server Name: </p>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <p>Game:</p>
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <p>Status:</p>
+                                    </div>
+                                    
+                                    <div class="col-md-1">
+                                        <p> Players:</p>
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div id="users">
+                                </div>
+                        </section>
+                        
+                        <center>
+                        <section id="page_login" hidden class="maincontent"style="width:400px;">
+                            
+                            <h3>Login</h3>
+                            
+                            
+                                
+                                <form style="width:350px;">
+                                    
+                                    <div class="form-group">
+                                        <input type="text" id="login_username" name="login_username" placeholder="Username" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" id="login_pass" name="login_pass" placeholder="Password" class="form-control">
+                                    </div>
+                                    
+                                    
+                                    <div class="row">
+                                        <button type="button" class="btn btn-default" onclick="authenticate()">Login</button>
+                                        <button type="button" class="btn btn-default" onclick="showPage('register')">Register</button>
+                                    </div>
+                                </form>                             
+                                
+                                
+                            
+                            
+                        </section>
+                        </center>
+                        
+                        <center>
+                        <section id="page_register" hidden class="maincontent"style="width:400px;">
+                            
+                            <h3>Register</h3>
+                            
+                            
+                                
+                                <form style="width:350px;">
+                                    
+                                    <div class="form-group">
+                                        <input type="text" id="register_username" name="register_username" placeholder="Username" class="form-control">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <input type="password" id="register_pass" name="register_pass" placeholder="Password" class="form-control">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <input type="password" id="register_email" name="register_email" placeholder="Email" class="form-control">
+                                    </div>
+                                    
+                                    <div class="row">
+                                    
+                                    <button type="button" class="btn btn-default" onclick="register()">Register</button>
+                                    <button type="button" class="btn btn-default" onclick="showPage('login')">Login</button>
+                                    
+                                    </div>
+                                    
+                                </form>                             
+                                
+                                
+                            
+                            
+                        </section>
+                        </center>
+                        
+                        
+                        <section id="page_console"  hidden class="maincontent">
+                            <div id="console-view">
+                            
+                            </div>
+                        </section>
+                        
+                    </div>
+                
+            </div>
+            
+           
+        </div>
+        
+    </section>
+
+    
+    
+           
+    
+    <style>
+        
+        
+        .serveredit-header{
+            height:50px;
+            background-color:#81b9c5;
+            width:99.8%;
+            margin-left:1px;
+            padding-top:10px;
+        }
+        
+        .savebtn{
+            position:fixed;
+            right:10px;
+            bottom:40px;
+        }
+        
+        
+        .topCenter{
+            padding-top:15px;
+        }
+        
+        
+        .online{
+            color:lightgreen;
+        }
+        
+        .offline{
+            color:red;
+        }
+        
+        
+        .servercard{
+            background-color:white;
+        }
+        .servercard:hover{
+            background-color:lightblue;
+        }
+        
+        .usercard{
+            background-color:white;
+            margin-top:5px;
+            border-left:2px solid grey;
+        }
+        .usercard:hover{
+            background-color:lightblue;
+        }
+        
+        .maincontent{
+            margin-right:10px;
+            height:90%;
+            box-shadow: 0px 5px 30px 0px #383838;
+        }
+        
+        #sidebar-container{
+            height:94%;
+        }
+        
+        .sidebar-content{
+            height:100%;
+        }
+        
+        .gap-1-top{
+            margin-top:10px;
+        }
+        
+        .gap-2-top{
+            margin-top:20px;
+        }
+        
+        .gap-3-top{
+            margin-top:30px;
+        }
+        
+        .gap-4-top{
+            margin-top:40px;
+        }
+        
+        .gap-5-top{
+            margin-top:50px;
+        }
+        
+        .gap-6-top{
+            margin-top:60px;
+        }
+        
+        .gap-7-top{
+            margin-top:70px;
+        }
+        
+        .gap-8-top{
+            margin-top:80px;
+        }
+        
+        .gap-9-top{
+            margin-top:90px;
+        }
+        
+        .gap-10-top{
+            margin-top:100px;
+        }
+        
+        .pull-bottom{
+            position:absolute;
+            bottom: 0;
+        }
+        
+    </style>
+    
+    <script>
+        
+        var socket = io.connect("http://51.6.255.139:81");
+        
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+        
+        
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        
+        
+    </script>
+    
+    <script src="assets/managerJS/notifications.js"></script>
+    <script src="assets/managerJS/pageManager.js"></script>
+    <script src="assets/managerJS/servers.js"></script>
+    <script src="assets/managerJS/user.js"></script>
+    <script src="assets/managerJS/pages.js"></script>
+    <script src="assets/managerJS/console.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
