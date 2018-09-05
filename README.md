@@ -33,9 +33,9 @@ ___
 </section>
 
 <section>
-  <a href="https://www.anonsoftware.co.uk" alt="Anon Software" style="display:block;" >AnonSoftware</a>
+  <a href="https://www.anonsoftware.co.uk" alt="https://www.anonsoftware.co.ukhttps://www.anonsoftware.co.uk" style="display:block;" >https://www.anonsoftware.co.uk</a>
   <p><p>
-  <a href="https://www.anonsoftware.co.uk/projects/?id=2" alt="Anon Software" style="display:block;">Project Details</a>
+  <a href="https://www.anonsoftware.co.uk/projects/ServerAdmin/" alt="Anon Software" style="display:block;">https://www.anonsoftware.co.uk/projects/ServerAdmin</a>
 </section>
 
 
